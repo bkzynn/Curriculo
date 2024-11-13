@@ -1,0 +1,85 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #00ff0d;
+}
+
+/* Container principal */
+.container {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #810202; /* Azul suave */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #fafafa; /* Rosa claro */
+}
+
+/* Seções */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #4682B4;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FFB6C1;
+    padding-bottom: 5px;
+}
+
+section p,
+section li {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+/* Listas de habilidades */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #00ff0d;
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+    color: #fff;
+}
+
+/* Experiência e Formação */
+.experience div,
+.education div {
+    margin-bottom: 15px;
+}
+
+.experience h3,
+.education h3 {
+    font-size: 1.2em;
+    color: #00ccff;
+}
+
+.experience p em,
+.education p em {
+    color: #00ff0d;
+}
